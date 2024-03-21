@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.set_theme(style="whitegrid")
-plt.style.use("fivethirtyeight")
+plt.style.use("grayscale")
 
 
 def plot_closing(plot_type, company_list, tech_list):
